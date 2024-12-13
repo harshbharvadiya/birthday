@@ -1,0 +1,43 @@
+# Site settings
+title: My Jekyll Site             # Title of your site
+description: "A simple Jekyll site on GitHub Pages"  # Description of your site
+url: "https://yourusername.github.io"  # Your site URL
+baseurl: ""                        # Empty for root hosting (leave it empty)
+timezone: "UTC"                    # Set your timezone
+
+# Author settings
+author:
+  name: Your Name                 # Your name (used for meta data, etc.)
+  email: your.email@example.com    # Your email address
+
+# Theme settings
+theme: jekyll-theme-primer         # Use a theme (this is the default theme)
+
+# Social links (optional)
+social_links:
+  twitter: "https://twitter.com/yourusername"   # Replace with your Twitter link
+  github: "https://github.com/yourusername"     # Replace with your GitHub link
+
+# Enable the following settings for GitHub Pages optimization
+plugins:
+  - jekyll-seo-tag                 # SEO tag for better search optimization
+  - jekyll-gist                    # Support for embedding Gists
+  - jekyll-feed                    # RSS Feed support (optional)
+  - jekyll-paginate                # Pagination support for blog-style posts
+
+# Disabling certain plugins for GitHub Pages compatibility (optional)
+exclude:
+  - "README.md"                   # Exclude README.md from being processed
+  - "LICENSE"                      # Exclude LICENSE file from being processed
+  - ".git"                         # Exclude the Git directory
+
+# Permalinks configuration (optional)
+permalink: /:year/:month/:day/:title.html  # URL structure for your blog posts
+
+# Markdown settings (optional)
+markdown: kramdown                   # Choose Markdown parser, Kramdown is the default
+highlighter: rouge                   # Code highlighting (optional)
+
+# Pagination settings (optional)
+paginate: 5                          # Set the number of posts per page
+paginate_path: "/page:num"           # Pagination URL format
